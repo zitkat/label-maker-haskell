@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "label-maker:lib"
+
+    - path: "./app/Main.hs"
+      component: "label-maker:exe:label-maker-exe"
+
+    - path: "./app/Paths_label_maker.hs"
+      component: "label-maker:exe:label-maker-exe"
+
+    - path: "./test"
+      component: "label-maker:test:label-maker-test"
