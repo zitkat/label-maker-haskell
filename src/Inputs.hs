@@ -1,9 +1,6 @@
 module Inputs where
 
 import Data
-import Control.Monad
-import Text.Read (Lexeme(String))
-import Data.String (IsString(fromString))
 import GHC.IO.Handle ( hFlush )
 import GHC.IO.Handle.FD ( stdout )
 
