@@ -65,4 +65,4 @@ packages:
 #
 # Allow a newer minor version of GHC than the snapshot specifies
 # compiler-check: newer-minor
-system-ghc: true  # this is neede for HLS to work https://github.com/haskell/vscode-haskell#troubleshooting
+system-ghc: true  # this is needed for HLS to work https://github.com/haskell/vscode-haskell#troubleshooting
